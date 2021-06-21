@@ -1,0 +1,96 @@
+body {
+background-color: black;
+scroll-behavior: auto;
+overflow:  hidden;
+font-family: 'Comic Sans', cursive;
+}
+
+a[href] {
+color: white;
+text-decoration-line: none;
+}
+
+.Page1 {
+background-image: url(images/background.png);
+background-position: 0 0;
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+height: 100vh;
+overflow: none;
+z-index: 1;
+justify-content: center;
+align-items: center;
+}
+
+.wrapper {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+color: deepskyblue;
+grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+width: 10000px;
+height: 400px;
+overflow:  hidden;
+margin: 0 auto;
+padding-top: 400px;
+padding-left: 400px;
+grid-column-start: 1;
+grid-column-end: 4;
+grid-row-start: 1;
+grid-row-end: 3;
+}
+
+.a,.b,.c,.d,.f,.o,.s,.i,.k,.t {
+padding: 10px 0px 10px;
+font-size: 16px;
+}
+
+.d a{
+padding: 10px 0px 10px;
+font-size: 16px;
+color: red;
+}
+
+.f a{
+padding: 10px 0px 10px;
+font-size: 16px;
+color: mediumpurple;
+}
+
+.o a{
+padding: 10px 0px 10px;
+font-size: 16px;
+color: orangered;
+}
+
+.s a{
+padding: 10px 0px 10px;
+font-size: 16px;
+color: cornflowerblue;
+}
+
+.k a{
+padding: 10px 0px 10px;
+font-size: 16px;
+color: coral;
+}
+
+.i a{
+padding: 10px 0px 10px;
+font-size: 16px;
+color: indianred;
+}
+
+.t a{
+padding: 10px 0px 10px;
+font-size: 16px;
+color: greenyellow;
+}
+
+.a {
+padding: 15px 0px 10px;
+}
+
+.one,.two,.three,.four,.five {
+font-size: 20px;
+}
